@@ -1,0 +1,88 @@
+/* Contact.css */
+
+/* Contact Page Container */
+.contact-page{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url('https://img.freepik.com/premium-photo/website-internet-contact-us-page-concept-with-phone-chat-email-icons-symbol-telephone-mail-mobile-phone-website-page-contact-us-wide-web-banner-copy-space-blue-background_256259-2730.jpg');
+  background-image: cover;
+  background-size: 100% 100%;
+  background-size: 100% auto;
+  background-color: #f4f4f4;
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+}
+.contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Contact Page Heading */
+  .contact-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Contact Information */
+  .contact-info {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  .contact-info ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .contact-info li {
+    margin-bottom: 10px;
+  }
+  
+  /* Contact Form */
+  .contact-form {
+    margin-top: 20px;
+  }
+  
+  /* Form Fields */
+  .contact-form label {
+    font-weight: bold;
+    display: block;
+  }
+  
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact-form textarea {
+    height: 150px;
+  }
+  
+  /* Submit Button */
+  .contact-form button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact-form button[type="submit"]:hover {
+    background-color:#007bff;
+  }
+  

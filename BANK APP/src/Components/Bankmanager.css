@@ -1,0 +1,87 @@
+/* BankManager.css */
+
+/* Styling for the container */
+.bank-manager {
+  
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    /*min-height: 100vh; /* Make sure it covers the entire viewport height */
+    background-image: url('https://img.freepik.com/premium-vector/banking-finance-concept-illustration_387612-169.jpg');
+    background-color: #f4f4f4;
+    background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat;
+  }
+  
+  /* Styling for headings */
+  h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  h2 {
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: center; /* Center headings horizontally */
+  }
+  
+  /* Styling for form input fields */
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #0d0d0d;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Styling for buttons */
+  button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color:rgb(28, 174, 231);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Styling for the list of banks */
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #f9f9f9;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Styling for bank details */
+  span {
+    display: block;
+    font-size: 16px;
+  }
+  
+  /* Styling for update and delete buttons within the list */
+  li button {
+    margin-top: 5px;
+  }
+  
